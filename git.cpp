@@ -5,3 +5,5 @@ git remote rm
 git tag //ÏÔÊ¾tag
 git tag -l 'v1.4.2.*'
 git tag -a v1.4 -m 'my version 1.4'
+git tag -a v1.4 [commits]
+git tag v1.4 [commits]
