@@ -1,8 +1,8 @@
-git remote add pg git://github.com/sioen/tc.git // Ìí¼ÓÒ»¸öĞÂµÄÔ¶³Ì¿â£¬pgÊÇrepoÄ¬ÈÏµÄbranchÃû×Ö£¬ÀàËÆorigin, origin/master±ä³É pg/master
+git remote add pg git://github.com/sioen/tc.git // æ·»åŠ ä¸€ä¸ªæ–°çš„è¿œç¨‹åº“ï¼Œpgæ˜¯repoé»˜è®¤çš„branchåå­—ï¼Œç±»ä¼¼origin, origin/masterå˜æˆ pg/master
 git remote rename
 git remote rm 
 
-git tag //ÏÔÊ¾tag
+git tag //æ˜¾ç¤ºtag
 git tag -l 'v1.4.2.*'
 git tag -a v1.4 -m 'my version 1.4'
 git tag -a v1.4 [commits]
@@ -11,11 +11,11 @@ git push origin v1.5
 git push origin --tags
 
 
-git-completion.bashÎÄ¼ş
+git-completion.bashæ–‡ä»¶
 
 git config --global alias.co checkout 
 git config --global alias.br branch
-git config --gloabl alias.visual '!gitk' // !±íÊ¾·Çgit×ÓÃüÁî¶øÊÇÍâ²¿ÃüÁî
+git config --gloabl alias.visual '!gitk' // !è¡¨ç¤ºégitå­å‘½ä»¤è€Œæ˜¯å¤–éƒ¨å‘½ä»¤
 
 
 git checkout -b hotfix
@@ -23,4 +23,7 @@ git checkout master
 git merge hotfix
 git branch -d hotfix
 
-git reset filename // ³·ÏúaddµÄÎÄ¼ş
+git reset filename // æ’¤é”€addçš„æ–‡ä»¶
+
+git stash//æš‚å­˜æœ¬åœ°ä¿®æ”¹
+git pop//å°†æš‚å­˜çš„ä¿®æ”¹é‡Šæ”¾
